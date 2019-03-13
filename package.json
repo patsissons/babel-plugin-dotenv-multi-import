@@ -1,0 +1,23 @@
+{
+  "name": "dotenv-multi-import",
+  "version": "0.1.0",
+  "description": "babel-plugin-dotenv-import for dotenv-multi",
+  "author": "Pat Sissons <patricksissons@gmail.com> (http://github.com/patsissons)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "babel-core": "^7.0.0-bridge.0",
+    "dotenv": "^6.0.0",
+    "dotenv-expand": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/babel-core": "^6.0.0",
+    "@types/dotenv": "^6.0.0",
+    "tslib": "^1.0.0",
+    "typescript": "^3.0.0"
+  }
+}
